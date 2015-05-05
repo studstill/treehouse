@@ -3,7 +3,7 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans' sans-serif;
 }
 
 #wrapper {
@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -175,6 +175,10 @@ PAGE: CONTACT
 
 .contact-info li.twitter a {
   background-image: url('../img/twitter.png');
+}
+
+.contact-info li.github a {
+  background-image: url('../img/GitHub-Logo.png');
 }
 
 /**********************************
