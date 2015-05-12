@@ -1,0 +1,18 @@
+body {
+  background-image: url("../castle.jpg");
+  background-size: 300% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#story {
+  margin: 1% 15%;
+  background-color: white;
+  padding: 30px;
+  border-color: white;
+  font-size: 2em;
+  border-radius: 25px;
+  box-shadow: 8px 8px 5px rgba(0,0,0, .3);
+  display: none;
+  position: center;
+}
