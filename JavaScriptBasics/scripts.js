@@ -1,6 +1,8 @@
 alert("Today, you are going to help me tell a story! \n\nI will ask for different nouns and adjectives that will be used to tell the story\n\nLet's go!");
 
 var x;
+var questions = 9;
+var questionsLeft = ' [' + questions + ' questions left]';
 
 var adjective1 = prompt('Give me an adjective');
 var noun1 = prompt('Give me a very important noun');

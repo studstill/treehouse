@@ -1,3 +1,7 @@
+
+// both the screen (digital screen) and the min:width need to be true in order for the css to be added to the page.
+
+
 @media screen and (min-width: 480px) {
     /**********************************
     TWo COLUMN LAYOUT
@@ -26,6 +30,37 @@
         clear: left;
     }
 
+    /**********************************
+    PAGE: ABOUT
+    ***********************************/
+
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+
+}
+
 @media screen and (min-width: 660px) {
+
+    /**********************************
+    PAGE: ABOUT
+    ***********************************/
+
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+    }
+
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
 
 }
