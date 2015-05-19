@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Guessing Game</h1>
+    <h3><a href="http://jasonstudstill.com">by Jason Studstill</a></h3>
+    <h5>
+  </header>
+  <section class="quizArea">
+    <article id="beginQuiz">
+      <h1>Would you like to play a game?</h1>
+      <p>
+        Want to prove your intellectual might?  Click YES try your luck at five of the hardest TRUE/FALSE questions.
+      </p>
+    <div class="button keepGoing">YES</div>
+    </article>
+    <article class="currentQuestion" id="question1">
+      <h1>Question 1: It's a Jolt!</h1>
+      <p>
+        Lightning never strikes the same place twice.
+      </p>
+      <div class="button choice true" id="incorrect">TRUE</div>
+      <div class="button choice false" id="correct">FALSE</div>
+      <p id="answer1">
+        <span>False!</span>  It <a href="http://www.accuweather.com/en/weather-blogs/weathermatrix/myth-lightning-never-strikes-twice/19890">strikes in the same place quite a lot.</a> The Empire State Building gets struck over 100 times a year.
+      </p>
+    </article>
+    <article id="question2">
+      <h1>Question 2: It'll be OK, Major Tom.</h1>
+      <p>
+        If you cry in space the tears just stick to your face.
+      </p>
+      <div class="button choice" id="true">TRUE</div>
+      <div class="button choice" id="false">FALSE</div>
+    </article>
+    <aritcle id="question3">
+      <h1>Question 3: It'll be OK, Major Tom.</h1>
+      <p>
+        If you cut an earthworm in half, both halve can regrow their body.
+      </p>
+      <div class="button choice" id="true">TRUE</div>
+      <div class="button choice" id="false">FALSE</div>
+    </aritcle>
+  </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
