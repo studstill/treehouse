@@ -30,7 +30,7 @@ body {
 
 .header {
   color: white;
-  background: #8BCFCC;
+  background:  #8BCFCC;
   text-align: left;
   text-shadow: .05em .05em .1em rgba(0,0,0, .3);
   display: block;
@@ -41,7 +41,7 @@ body {
 }
 
 .header h1, .header h3 {
-  margin: 0 0 ;
+  margin: .10em 0 ;
 }
 
 /***************************
@@ -76,10 +76,17 @@ body {
   font-weight: bold;
 }
 
+.nextQuestion {
+  display: none;
+  position: relative;
+  padding: .5em 0;
+  margin: 1em 15%;
+}
+
 .button {
   display: inline-block;
   position: relative;
-  background: red;
+  background: #FD5A4E;
   color: white;
   font-size: 2em;
   margin: 1em;
@@ -114,6 +121,19 @@ body {
   display: none;
 }
 
+.nextQuestion {
+  display: none;
+  padding: .5em 0;
+}
+
+#emptyArticle {
+  display: none;
+}
+
+#finalScore {
+  display: none;
+}
+
 
 
 /***************************
@@ -121,6 +141,6 @@ body {
 ***************************/
 
 .button:hover {
-  background: #f06060;
+  background: #FF6565;
   cursor: pointer;
 }
