@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-size: 10pt;
+  font-size: 14pt;
 }
 
 body {
@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 1em 1.5em;
   border-bottom: solid .5em #178780;
+  font-size: 1.5em;
 
 }
 
@@ -53,7 +54,7 @@ body {
   padding: 1em;
   background: lightgrey;
   border-radius: 10px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   max-width: 800px;
 
 }
@@ -65,8 +66,8 @@ body {
 }
 
 .quizArea p {
-  margin: 1em 1em;
-  font-size: 1.25em;
+  margin: .5em .5em;
+  font-size: 1.5em;
 }
 
 .quizArea span {
@@ -86,10 +87,11 @@ body {
 .button {
   display: inline-block;
   position: relative;
+  max-width: 100%;
   background: #FD5A4E;
   color: white;
   font-size: 2em;
-  margin: 1em;
+  margin: .5em;
   padding: .5em 2em;
   border-radius: 5px 5px;
   box-shadow: .1em .1em .1em rgba(0,0,0, .3);

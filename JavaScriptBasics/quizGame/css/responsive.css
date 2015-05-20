@@ -1,4 +1,8 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
+
+  * {
+    font-size: 20pt;
+  }
 
   .quizArea p {
     margin-bottom: .5em;
@@ -8,12 +12,24 @@
     margin: .5em;
   }
 
-}
 
-@media screen and (min-width: 973px) {
+@media screen and (max-width: 880px) {
+
+  * {
+    font-size: 22pt;
+  }
+
+  .quizArea p {
+    margin-bottom: .5em;
+  }
+
+  .button {
+    margin: .5em;
+  }
 
   .quizArea {
     margin: 1em 4%;
   }
 
 }
+
